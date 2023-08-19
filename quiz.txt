@@ -1,0 +1,56 @@
+Git adalah singkatan dari Group Inclusive Tour. Git merupakan version control system yang gratis dan juga open source. Git dirancang untuk menangani segala project baik itu project besar atau project sederhana. Git memungkinkan para pengembang untuk bekerja secara bersama-sama pada proyek yang sama dan melacak setiap perubahan yang dilakukan pada source code. Terdapat 2 sistem git, yaitu centralized dan distributed
+
+● Centralized
+Git centralized berkerja hanya dengan menggunakan satu server yang berfungsi untuk menyimpan data dari project. Sistem git ini membutuhkan koneksi network untuk dapat mengakses data dari project. Selain itu, ketika terjadi sesuatu pada server seperti server corrupt, maka data project yang ada di dalam server akan berpotensi untuk hilang juga.
+
+● Distributed
+
+Git distributed berkerja dengan menyimpan data project di lokal dan juga di server. Sehingga lebih aman ketika terjadi sesuatu pada server seperti server corrupt karena sudah terdapat backup dari data project di lokal.
+
+ Version control, Git menyimpan setiap perubahan yang diubah pada source code, sehingga memungkinkan pengguna untuk memantau dan mengelola code version yang berbeda.
+
+●     Git Branch
+Branch merupakan fitur yang paling sering digunakan dalam version control system. Branch digunakan ketika developer akan menambahkan fitur baru atau memperbaiki bug. Fungsi utama dari branch ialah agar pada saat penambahan fitur baru tidak mengganggu source code utama. Ketika pengerjaan dari fitur baru sudah diselesaikan dan sudah di testing, maka branch feature akan dimerge ke dalam branch master/main.
+
+●     Merging
+Git memungkinkan pengguna yang telah selesai mendevelop code dan sudah melakukan testing pada branch baru untuk menggabungkan perubahan yang telah dibuat ke branch utama.
+
+●     Staging area
+Git memiliki staging area, di mana pengguna dapat memilih perubahan mana yang akan di-commit ke repository.
+
+●     Git Rebase
+
+Git rebase digunakan untuk menggabungkan atau menggeser commit base. Untuk lebih jelas mengenai Git Rebase dapat dilihat pada ilustrasi berikut:
+
+1.    Pembuatan branch baru yaitu feature
+
+2.    Branch pada master/main melakukan commit baru
+
+3.    Melakukan Git Rebase untuk menggeser commit base ke posisi terakhir dari commit pada branch master/main
+
+●     Hooks
+
+Git memiliki hooks, yaitu script yang dijalankan secara otomatis saat terjadi peristiwa tertentu di dalam Git, seperti commit atau push.
+
+●     GUI tools
+Git menyediakan GUI tools, seperti GitKraken dan Sourcetree, untuk memudahkan penggunaan Git bagi pengguna yang kurang terbiasa dengan command line
+
+
+
+●     Kelebihan
+
+○     Dapat mengelola versi kode sumber dengan mudah dan efisien.
+
+○     Dapat melakukan branching dan merging dengan mudah dan aman.
+
+○     Dapat melacak perubahan dan siapa yang membuat perubahan pada source code.
+
+○     Memiliki performa yang cepat dan stabil dalam pengelolaan kode sumber yang besar.
+
+●     Kelemahan
+
+○     Memiliki fitur yang kompleks dan terkadang membingungkan bagi pengguna yang kurang berpengalaman.
+
+○     Memerlukan pemahaman yang baik tentang konsep dasar seperti repository, commit, branching, dan merging.
+
+○     Sulit digunakan untuk pengelolaan file biner atau non-teks, seperti gambar atau video.
